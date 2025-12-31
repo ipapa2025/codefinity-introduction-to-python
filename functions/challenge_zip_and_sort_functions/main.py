@@ -11,3 +11,6 @@ combined_list=zip(products, prices, quantities_sold)
 
 sorted_products = sorted(combined_list)
 print(sorted_products)
+
+for product, price, qty in sorted_products:
+    print(f"Product: {product}, Price: {price}, Quantity Sold: {qty}")
