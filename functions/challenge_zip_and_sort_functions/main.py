@@ -9,7 +9,5 @@ quantities_sold = [50, 100, 25, 40]
 
 combined_list=zip(products, prices, quantities_sold)
 
-print(list(combined_list))
-
 sorted_products = sorted(combined_list)
-print(list(sorted_products))
+print(sorted_products)
